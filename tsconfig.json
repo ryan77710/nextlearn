@@ -5,6 +5,8 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
+    // "declaration": true,
+    // "emitDeclarationOnly": true,
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
@@ -22,13 +24,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    "app/lib/placeholder-data.js",
-    "scripts/seed.js"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/lib/placeholder-data.js", "scripts/seed.js"],
   "exclude": ["node_modules"]
 }
